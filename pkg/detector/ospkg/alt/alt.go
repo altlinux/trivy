@@ -69,10 +69,10 @@ func (s *Scanner) IsSupportedVersion(ctx context.Context, osFamily ftypes.OSType
 	return osver.Supported(ctx, eolDates, osFamily, osVer)
 }
 
-func (s *Scanner) Detect(cpe string, _ *ftypes.Repository, pkgs []ftypes.Package) ([]types.DetectedVulnerability, error) {
-	log.Logger.Info("Detecting ALT vulnerabilities...")
-	log.Logger.Debugf("ALT: os version: %s", fromCPE(cpe))
-	log.Logger.Debugf("ALT: the number of packages: %d", len(pkgs))
+func (s *Scanner) Detect(ctx context.Context, cpe string, _ *ftypes.Repository, pkgs []ftypes.Package) ([]types.DetectedVulnerability, error) {
+	log.InfoContext(ctx, "Detecting ALT vulnerabilities...")
+	log.DebugContext(ctx, "ALT: os version: ", log.String("cpe", fromCPE(cpe)))
+	log.DebugContext(ctx, "ALT: the number of packages: ", log.Int("pkg_num", len(pkgs)))
 
 	var vulns []types.DetectedVulnerability
 	p := pb.New(len(pkgs))

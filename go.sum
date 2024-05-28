@@ -732,6 +732,8 @@ github.com/alicebob/gopher-json v0.0.0-20200520072559-a9ecdc9d1d3a h1:HbKu58rmZp
 github.com/alicebob/gopher-json v0.0.0-20200520072559-a9ecdc9d1d3a/go.mod h1:SGnFV6hVsYE877CKEZ6tDNTjaSXYUk6QqoIK6PrAtcc=
 github.com/alicebob/miniredis/v2 v2.32.1 h1:Bz7CciDnYSaa0mX5xODh6GUITRSx+cVhjNoOR4JssBo=
 github.com/alicebob/miniredis/v2 v2.32.1/go.mod h1:AqkLNAfUm0K07J28hnAyyQKf/x0YkCY/g5DCtuL01Mw=
+github.com/altlinux/trivy-db v0.0.0-20240401141737-336f6ffaab21 h1:ogBUREezeqGdM56cqJAyXPhXaTE4ZQX81k+du9VM150=
+github.com/altlinux/trivy-db v0.0.0-20240401141737-336f6ffaab21/go.mod h1:sECIuPk1bXaqGDdoRVRfJCNNrPwIrutIFrfoVy6AVWE=
 github.com/anchore/go-struct-converter v0.0.0-20221118182256-c68fdcfa2092 h1:aM1rlcoLz8y5B2r4tTLMiVTrMtpfY0O8EScKJxaSaEc=
 github.com/anchore/go-struct-converter v0.0.0-20221118182256-c68fdcfa2092/go.mod h1:rYqSE9HbjzpHTI74vwPvae4ZVYZd1lue2ta6xHPdblA=
 github.com/andybalholm/brotli v1.0.4/go.mod h1:fO7iG3H7G2nSZ7m0zPUDn85XEX2GTukHGRSepvi9Eig=
@@ -775,8 +777,6 @@ github.com/aquasecurity/trivy-aws v0.8.0 h1:4ij8MiZ2sJUH+vWpSeoGVhPr109ZBcNp7LNL
 github.com/aquasecurity/trivy-aws v0.8.0/go.mod h1:Pb9xqOuTKMHVgjsnjvudjqZh3nmzdFqFVfRkXnoIZBM=
 github.com/aquasecurity/trivy-checks v0.10.5-0.20240430045208-6cc735de6b9e h1:s0P4VeCqb7tWw06/L1cZ5/42AWy6VZFuLZ96THPJmmM=
 github.com/aquasecurity/trivy-checks v0.10.5-0.20240430045208-6cc735de6b9e/go.mod h1:UIFQxYlKcL7EGhNVicFmZ6XxZ2UpFZU7bNKEv/Y/6XM=
-github.com/aquasecurity/trivy-db v0.0.0-20231005141211-4fc651f7ac8d h1:fjI9mkoTUAkbGqpzt9nJsO24RAdfG+ZSiLFj0G2jO8c=
-github.com/aquasecurity/trivy-db v0.0.0-20231005141211-4fc651f7ac8d/go.mod h1:cj9/QmD9N3OZnKQMp+/DvdV+ym3HyIkd4e+F0ZM3ZGs=
 github.com/aquasecurity/trivy-java-db v0.0.0-20240109071736-184bd7481d48 h1:JVgBIuIYbwG+ekC5lUHUpGJboPYiCcxiz06RCtz8neI=
 github.com/aquasecurity/trivy-java-db v0.0.0-20240109071736-184bd7481d48/go.mod h1:Ldya37FLi0e/5Cjq2T5Bty7cFkzUDwTcPeQua+2M8i8=
 github.com/aquasecurity/trivy-kubernetes v0.6.7-0.20240516051533-4c5a4aad13b7 h1:bLmh/xuC/7abvt9S/xnODTQRu8fW6BhFHS6Cmbn0RNU=

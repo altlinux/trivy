@@ -115,7 +115,9 @@ require (
 	github.com/twitchtv/twirp v8.1.3+incompatible
 	github.com/xeipuuv/gojsonschema v1.2.0
 	github.com/xlab/treeprint v1.2.0
-	github.com/zclconf/go-cty v1.14.4
+)
+
+require (
 	github.com/zclconf/go-cty-yaml v1.0.3
 	go.etcd.io/bbolt v1.3.10
 	golang.org/x/crypto v0.23.0
@@ -135,7 +137,10 @@ require (
 	sigs.k8s.io/yaml v1.4.0
 )
 
-require github.com/golang/protobuf v1.5.4
+require (
+	github.com/golang/protobuf v1.5.4
+	github.com/zclconf/go-cty v1.14.4
+)
 
 require (
 	cloud.google.com/go v0.112.1 // indirect
@@ -431,3 +436,5 @@ require (
 	sigs.k8s.io/kustomize/kyaml v0.14.3-0.20230601165947-6ce0bf390ce3 // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.4.1 // indirect
 )
+
+replace github.com/aquasecurity/trivy-db => github.com/altlinux/trivy-db v0.0.0-20240401141737-336f6ffaab21
